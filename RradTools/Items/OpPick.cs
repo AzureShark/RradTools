@@ -30,13 +30,14 @@ namespace RradTools.Items
 			item.autoReuse = true;
 		}
 
-		public override void AddRecipes()
-		{
-			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(ItemID.DirtBlock, 10);
-			recipe.AddTile(TileID.WorkBenches);
-			recipe.SetResult(this, 1);
-		}
+        public override void AddRecipes()  //How to craft this item
+        {
+            ModRecipe recipe = new ModRecipe(mod);
+            recipe.AddIngredient(ItemID.DirtBlock, 10);   //you need 10 Wood
+            recipe.AddTile(TileID.WorkBenches);   //at work bench
+            recipe.SetResult(this);
+            recipe.AddRecipe();
+        }
 
 		public override void MeleeEffects(Player player, Rectangle hitbox)
 		{
