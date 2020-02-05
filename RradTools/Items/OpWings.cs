@@ -12,7 +12,7 @@ namespace RradTools.Items
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Wings of The Gods");
-			Tooltip.SetDefault("These wings were forged in the bowels of a black hole."
+			Tooltip.SetDefault("These wings were forged in the bowels of a black hole. A black hole made of dirt, don't ask me how."
 				+ "\nDEFENSE FOR DAYS!"
 				+ "\nSo much POWER!");
 		}
@@ -59,8 +59,8 @@ namespace RradTools.Items
         public override void AddRecipes()  //How to craft this item
         {
             ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(ItemID.DirtBlock, 10);   //you need 10 Wood
-            recipe.AddTile(TileID.WorkBenches);   //at work bench
+            recipe.AddIngredient(ItemID.DirtBlock, 10); 
+            recipe.AddTile(TileID.WorkBenches);
             recipe.SetResult(this);
             recipe.AddRecipe();
         }
