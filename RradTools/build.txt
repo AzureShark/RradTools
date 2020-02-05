@@ -1,4 +1,4 @@
 author = rradt2001
 
-version = 0.1.5
-displayName = rrad Tools
+version = 0.1.6
+displayName = Rrad Tools v0.1.6
