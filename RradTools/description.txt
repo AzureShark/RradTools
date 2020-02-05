@@ -1,1 +1,8 @@
 OP Tools is just a thing that rradt2001 made for people that want OP stuff. Have fun!
+Update (2/5/2020): Changed the descriptions of the two items. I plan on adding an OP gun and sword. Maybe a throwable later on.
+
+Planned Features: 
+ - Gun
+ - Sword
+ - Throwable(?)
+ - Armor(?)
