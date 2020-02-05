@@ -9,7 +9,7 @@ namespace RradTools.Items
 	{
 		public override void SetStaticDefaults()
 		{
-			Tooltip.SetDefault("This is a pick of the GODS!.");
+			Tooltip.SetDefault("This is a pick made by the gods! . . . and dirt. What can I say, the gods love dirt.");
 		}
 
 		public override void SetDefaults()
@@ -33,8 +33,8 @@ namespace RradTools.Items
         public override void AddRecipes()  //How to craft this item
         {
             ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(ItemID.DirtBlock, 10);   //you need 10 Wood
-            recipe.AddTile(TileID.WorkBenches);   //at work bench
+            recipe.AddIngredient(ItemID.DirtBlock, 10);  
+            recipe.AddTile(TileID.WorkBenches);
             recipe.SetResult(this);
             recipe.AddRecipe();
         }
